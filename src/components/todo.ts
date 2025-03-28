@@ -120,6 +120,76 @@ export const TodoBoostrapTheme: TodoThemeSchema = {
   hidden: 'd-none'
 }
 
+export const TodoBulmaTheme: TodoThemeSchema = {
+  root: 'box is-flex-direction-column is-flex',
+  list: 'content is-flex-grow-1',
+  list_item: 'box p-3 is-flex',
+  list_itemDone: '',
+  list_item_check: 'mr-3',
+  list_item_text: 'mr-3 is-flex-grow-1',
+  list_item_textDone: 'has-text-grey-light has-text-weight-light',
+  list_item_textEditInput: 'is-flex-grow-1',
+  list_item_deleteButton: 'button is-danger is-small',
+  list_item_editButton: 'button is-warning is-small ml-1',
+  footer: 'is-align-items-flex-end mt-4',
+  footer_input: 'textarea is-primary is-small',
+  footer_addButton: 'button is-primary is-small',
+  hidden: 'is-hidden'
+}
+
+export const TodoFoundationTheme: TodoThemeSchema = {
+  root: 'flex-container flex-dir-column align-center',
+  list: 'list flex-child-grow padding-2 todo-box',
+  list_item: 'list-item align-middle grid-x align-justify todo-item-bg',
+  list_itemDone: '',
+  list_item_check: 'checkbox margin-right-1',
+  list_item_text: 'cell auto margin-right-1',
+  list_item_textDone: 'strike',
+  list_item_textEditInput: 'input-group-field margin-right-1',
+  list_item_deleteButton: 'button alert',
+  list_item_editButton: 'button warning margin-left-1',
+  footer: 'input-group padding-2 todo-box',
+  footer_input: 'input-group-field',
+  footer_addButton: 'input-group-button button primary',
+  hidden: 'hide'
+}
+
+
+
+export const TodoMaterializeTheme: TodoThemeSchema = {
+  root: 'flex-column',
+  list: 'collection flex-grow-1 p-2',
+  list_item: 'collection-item flex justify-space-between align-center',
+  list_itemDone: '',
+  list_item_check: 'filled-in me-2',
+  list_item_text: 'flex-grow-1',
+  list_item_textDone: 'text-decoration-line-through',
+  list_item_textEditInput: 'browser-default input-field me-2',
+  list_item_deleteButton: 'btn red ml-1',
+  list_item_editButton: 'btn amber darken-2 ml-1',
+  footer: 'flex align-center justify-space-between p-2',
+  footer_input: 'browser-default input-field flex-grow-1 mr-2',
+  footer_addButton: 'btn blue',
+  hidden: 'hide'
+}
+
+
+export const TodoTailwindTheme: TodoThemeSchema = {
+  root: 'flex flex-col',
+  list: 'flex-grow p-2 space-y-2',
+  list_item: 'flex items-center bg-white border rounded p-2 shadow-sm',
+  list_itemDone: '',
+  list_item_check: 'mr-3',
+  list_item_text: 'flex-grow mr-3',
+  list_item_textDone: 'line-through text-gray-400',
+  list_item_textEditInput: 'flex-grow border rounded px-2 py-1 mr-3',
+  list_item_deleteButton: 'bg-red-500 hover:bg-red-600 text-white px-2 py-1 rounded',
+  list_item_editButton: 'bg-yellow-400 hover:bg-yellow-500 text-white px-2 py-1 rounded ml-1',
+  footer: 'flex p-2',
+  footer_input: 'flex-grow border rounded px-2 py-1 mr-2',
+  footer_addButton: 'bg-blue-500 hover:bg-blue-600 text-white px-4 py-1 rounded',
+  hidden: 'hidden'
+}
 
 
 interface TodoOptions {
